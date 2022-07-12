@@ -4,7 +4,7 @@
 #
 Name     : pypi-atomicwrites_homeassistant
 Version  : 1.4.1
-Release  : 2
+Release  : 3
 URL      : https://files.pythonhosted.org/packages/9a/5a/10ff0fd9aa04f78a0b31bb617c8d29796a12bea33f1e48aa54687d635e44/atomicwrites-homeassistant-1.4.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/9a/5a/10ff0fd9aa04f78a0b31bb617c8d29796a12bea33f1e48aa54687d635e44/atomicwrites-homeassistant-1.4.1.tar.gz
 Summary  : Atomic file writes.
@@ -49,6 +49,7 @@ Summary: python3 components for the pypi-atomicwrites_homeassistant package.
 Group: Default
 Requires: python3-core
 Provides: pypi(atomicwrites_homeassistant)
+Provides: atomicwrites
 Provides: pypi(atomicwrites)
 
 %description python3
@@ -67,7 +68,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1657568064
+export SOURCE_DATE_EPOCH=1657637646
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
